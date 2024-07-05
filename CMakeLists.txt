@@ -3,10 +3,8 @@ project(FixDBLib)
 
 
 
-include_directories(${PROJECT_SOURCE_DIR}../API/FIX.OutProcessAPI/)
-#include_directories(${PROJECT_SOURCE_DIR}/include)
-
-message("Directory: ***************************"${PROJECT_SOURCE_DIR})
+#include_directories("../API/")
+#include_directories("../Code/")
 
 #add_executable(FixDBLib main.cpp)
 

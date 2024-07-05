@@ -8,8 +8,9 @@ class DataAdapterInterface {
 public:
     virtual void convert() = 0;
     virtual void receive() = 0;
+    virtual void init() = 0;
 
-    std::unique_ptr <InterfaceInputAPI> m_InterfaceAPI;
+    std::unique_ptr <InterfaceInputAPI> m_InterfaceInputAPI;
 };
 
 #endif // DATAADAPTER_H

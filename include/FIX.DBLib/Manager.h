@@ -2,9 +2,9 @@
 #define MANAGER_H
 
 #include <iostream>
+//#include"FIX.DBLib/Interfaces/DataAdapterInterface.h"
+#include"FIX.DBLib/DataAdapterFIXAPI_KXImpl.h"
 #include"FIX.DBLib/Interfaces/DataAPIInterface.h"
-#include"FIX.DBLib/Interfaces/DataAdapterInterface.h"
-
 
 class Manager {
 public:

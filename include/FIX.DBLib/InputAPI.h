@@ -1,11 +1,11 @@
 #ifndef INPUTAPI_H
 #define INPUTAPI_H
 
-#include"FIX.DBLib/Interfaces/InterfaceInputAPI.h"
+#include "FIX.DBLib/Interfaces/InterfaceInputAPI.h"
 
 class InputAPI : public InterfaceInputAPI {
 public:
-    void init() override;
+    int init() override;
     void reconnect() override;
     void receive() override;
 };
